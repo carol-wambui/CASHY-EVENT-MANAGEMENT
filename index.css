@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    padding:0;
+    }
+    .nav ul{
+    list-style: none;
+    background: #000000;;
+    text-align:center;
+    padding:0;
+    margin:0;
+    }
+    .nav li{
+        display:inline-block;
+    }
+    .nav a{
+        text-decoration: none;
+        color:white;
+        width:100px;
+        display:block;
+        text-align:center;
+        padding:15px;
+        font-size:17px;
+        font-family:Helvetica;
+    }
+    li{
+        display: inline;
+    }
+    h1{
+        text-align:20px right;
+        border-inline-color:black;
+        font-size:bold;
+        padding:50px;
+        text-align:center;
+    }
+    h2{
+        text-align:20px right;
+        border-inline-color:black;
+        font-size:bold;
+        padding:50px;
+        text-align:center;
+    }
+    .home{
+        background-image: url('./birthday\ cashy');
+        background-size: cover;
+        height: 800px;
+        text-align: right;
+    }
+    .services{
+        background-image: url('./wedding\ event');
+        background-size: cover;
+        height: 800px;
+        text-align: right;
+    }
+    .contact{
+        background-image: url('./wedding\ event\ picture');
+        background-size: cover;
+        height: 800px;
+        text-align: right;
+    }
+    .about p{
+         text-align: right;
+    }
