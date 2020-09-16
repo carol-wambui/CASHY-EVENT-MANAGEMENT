@@ -4,7 +4,7 @@ body{
     }
     .nav ul{
     list-style: none;
-    background: #000000;;
+    background: blue;
     text-align:center;
     padding:0;
     margin:0;
@@ -25,38 +25,76 @@ body{
     li{
         display: inline;
     }
-    h1{
+    .h1{
         text-align:20px right;
-        border-inline-color:black;
+        border-inline-color:blue;
         font-size:bold;
         padding:50px;
         text-align:center;
     }
     h2{
         text-align:20px right;
-        border-inline-color:black;
+        border-inline-color:blue;
         font-size:bold;
         padding:50px;
         text-align:center;
     }
     .home{
-        background-image: url('./birthday\ cashy');
+        background-image: url('images/homepage.jpg');
         background-size: cover;
         height: 800px;
-        text-align: right;
+        text-align: center;
+        
+        
+        
+    }
+    #intro{
+        font-size:80px;
+        padding-top:150px;
     }
     .services{
         background-image: url('./wedding\ event');
         background-size: cover;
         height: 800px;
-        text-align: right;
+        text-align: center;
     }
     .contact{
-        background-image: url('./wedding\ event\ picture');
-        background-size: cover;
-        height: 800px;
-        text-align: right;
+        background-color: blue;
+        text-align: center;
+        width: 100%;
+        height: 50px;
+        padding-top: 8px;;
+
     }
-    .about p{
-         text-align: right;
+    .p{
+         text-align: center;
+    }
+
+    .cashy{
+        text-align: center;
+        color: blue;
+    }
+    .event{
+        text-align: center;
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+
+    .event1, .event2, .event3{
+        display: flex;
+         padding-left: 300px; 
+         padding-right: 300px;
+    }
+
+    .text1, .text3{
+        padding-left: 50px;
+        width: 500px;
+    }
+
+    .text2{
+        width:500px
+    }
+
+    .image2{
+        padding-left: 50px;
     }
